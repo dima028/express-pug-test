@@ -6,7 +6,7 @@ app.set('view engine', 'pug');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
-    res.render('dima', {
+    res.render('index', {
         title: `About Dima`,
     });
 });
